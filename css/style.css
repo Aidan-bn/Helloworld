@@ -1,0 +1,9 @@
+@media only screen and (min-width: 768px) {
+    section {
+        background-color: gray;
+    }
+}
+
+#welcome-section {
+    height: 100vh;
+}
