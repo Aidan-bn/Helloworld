@@ -2,30 +2,98 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Hotel Reservation</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
 
-    <nav id="navbar">
-      <a href="#"></a>
-    </nav>
+  <nav class="navbar">
+    <ul class="lists">
+      <li class="nav-links"><a href="Home">Home</a></li>
+      <li class="nav-links"><a href="Contact">Contact</a></li>
+      <li class="nav-links"><a href="Portifolio">Portifolio</a></li>
+    </ul>
+  </nav>
+      <div class="heading">
+        <h1>Welcome to Hotel Reservation Form</h1><hr>
+      </div>
 
-    <h1>Hello World, we are software developers</h1>
+      <div class="heading">
+        <h4>Fil The Form Below</h4>
+        <form action="" class="details">
 
-    <section id="welcome-section">
-      <h1></h1>
-      <a href="https://github.com/Aidan-bn/Helloworld/blob/main/index.html" id="profile-link"></a>
-    </section>
+          <label class="lbl">First Name</label>
+          <input type="text" name="fname" id="fname" placeholder="Enter First Name">
 
-    <section id="projects">
-      <p class="project-tile">
-        <a href="#"></a>
-      </p>
-    </section>
-    
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+          <label class="lbl">Last Name</label>
+          <input type="text" name="lname" id="lname" placeholder="Enter Last Name">
+
+          <label class="lbl">Email</label>
+          <input type="email" name="uemail" id="uemail" placeholder="Enter Your Email">
+
+          <label class="lbl">Phone No.</label>
+          <input type="number" name="pno" id="pno" placeholder="Enter Your Phone No">
+          
+          <table>
+            <tr><h4><strong><u>Gender</u></strong></h4></tr>
+            <tr>
+              <td><input type="radio" class="radios" id="male" name="radios" value="male"></td>
+              <td><label for="male" >Male</label></td>
+              <td><input type="radio" class="radios" name="rados" id="female" value="female"></td>
+              <td><label for="female">Female</label></td>
+            </tr>
+          </table>
+          
+           <table>
+             <tr><h4>Choose Services</h4></tr>
+             <tr>
+              <td><input type="checkbox" name="brfast" id="brfast" ></td>
+               <td><label>Break Fast</label></td> 
+              <td><input type="checkbox" name="lunch" id="lunch" ></td>
+              <td><label>Lunch</label></td>
+              <td><input type="checkbox" name="dinner" id="dinner" ></td>
+              <td><label>Dinner</label></td>
+             </tr>
+           </table> 
+           <input type="submit" value="Submit" class="submit">
+        </form>
+      </div>
+        
+      <h4>Preview Our Environment</h4>
+   <section id="welcome-section" class="picha">
+   
+     <div class="pic">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fugit illo iusto ad repellat consequuntur,
+          consectetur error dicta corporis cum, veniam odit possimus sint labore fuga dolore natus reprehenderit, 
+          molestias ipsum. Ducimus ipsum, rerum rem architecto commodi illum porro natus.</p>
+     </div>
+      <div class="category">
+        <ul class="cat">
+          <li class="catego">Five Star</li>
+          <li class="catego">Four Star</li>
+          <li class="catego">Three Star</li>
+          <li class="catego">Two Star</li>
+          <li class="catego">One Star</li>
+        </ul>
+      </div>
+     
+   </section>
+
+   <section id="projects" class="footer">
+     <p class="project-tile">
+       &copy Copy righted 2022 | Learn about Us <a href="">here</a> For more | About Microverse classes
+     </p>
+     <div class="social">
+       Twitter | FaceBook | Instagram | WhatsApp
+     </div>
+     <div class="usefullinks">
+       Home | About | Profile
+     </div>
+   </section>
+
+
+   
     <script  src="js/index.js"></script>
   </body>
 </html>
